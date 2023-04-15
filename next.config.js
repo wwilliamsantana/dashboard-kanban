@@ -4,11 +4,9 @@ const nextConfig = {
     appDir: true,
   },
 
-  images:{
-    domains: [
-      "github.com"
-    ]
-  }
+  images: {
+    domains: ['github.com'],
+  },
 }
 
 module.exports = nextConfig
