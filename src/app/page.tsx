@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import logo from "../assets/logo.svg"
 import Link from 'next/link'
-import {Tablet, Users, File, Cog, Edit2} from "lucide-react"
+import {Tablet, Users, File, Cog, Edit2, SortDesc, Search} from "lucide-react"
 
 
 export default function Home() {
@@ -33,6 +33,7 @@ export default function Home() {
       </nav>
       <main className='mt-1'>
         <div className='h-full bg-[#fbfaff] rounded-tl-[32px] px-8 py-12'>
+
           <div className='flex justify-between items-center'>
 
             <div className='flex items-center gap-3'>
@@ -44,14 +45,23 @@ export default function Home() {
               <Image src='https://github.com/wwilliamsantana.png' alt='Image Profile' width={64} height={64} className='rounded-full'/>
             </div>
 
-            {/* <div>
-              <button></button>
-              <div>
-                Icon*
-                <input type="text" />
-              </div>
-            </div> */}
+          
+            
           </div>
+
+          <div className='flex items-center mt-8 gap-4 px-6'>
+              <button className='flex items-center gap-2 px-8 py-3 rounded-md bg-[#7C3AED] text-white text-sm'>
+                <SortDesc size={24}/>
+                Filtrar
+              </button>
+              <div className='px-6 py-3 rounded-lg shadow flex items-center flex-1 gap-3'>
+                <Search size={24} color='#a8a8b9'/>
+                <input className='w-full placeholder:text-[#7C7C8A] outline-none text-[#7C7C8A]' type="text" placeholder='Busque por cards, assuntos ou responsáveis...' />
+              </div>
+          </div>
+
+          
+
         </div>
       </main>
     </div>
