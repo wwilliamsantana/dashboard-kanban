@@ -1,7 +1,7 @@
 # Dashboard Kanban
 
 ## :computer: Sobre
-Projeto foi idealizado a partir de um desafio proposto pela #Rocketseat, onde foi disponibilizado **APENAS** o layout pelo [FIGMA](https://www.figma.com/community/file/1220368226816658013/%23boracodar---Desafio-12)
+Projeto foi idealizado a partir de um desafio proposto pela #Rocketseat, onde foi disponibilizado **APENAS** o layout do [FIGMA](https://www.figma.com/community/file/1220368226816658013/%23boracodar---Desafio-12)
 
 ### Ideia:
 Criar layout de forma idêntica ao layout do figma.
